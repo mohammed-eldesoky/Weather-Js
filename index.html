@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg p-4">
+      <div class="container p-3">
+        <a class="navbar-brand d-flex align-items-center" href="#">
+          <img src="./imgs/logo@2x.png" class="w-25 me-2" alt="" />
+          <div>
+            <h1 class="mb-0">Weather</h1>
+            <span class="text-white-50">tagline goes here</span>
+          </div>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">News</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">Live cameras</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">Photos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class="city py-5">
+      <div class="container pb-5">
+        <div class="row">
+          <div class="col-md-12 pb-2">
+            <div class="search p-5">
+              <form action="" class="location w-100 position-relative pb-5">
+                <input
+                  type="text"
+                  placeholder="Find Your Location..."
+                  class="w-100"  id="search"
+                />
+                <input type="button" value="Find" />
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cards pb-0">
+      <div class="container position-relative">
+        <div class="row gy-4 gx-0 position-relative w-100" id="cards-container"> 
+      
+        </div>
+      </div>
+    </section>
+
+<footer >
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+<div class="subscribe mt-5">
+  <form action="" class="sub w-100 position-relative pb-4">
+    <input
+      type="text"
+      placeholder="Enter Your Email To Subscribe..."
+      class="w-100"
+    />
+    <input type="button" value="Subscribe" />
+  </form>
+
+  <p class="text-white text-opacity-75 ">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+</div>
+      </div>
+
+      <div class="col-md-4">
+<div class="icons d-flex justify-content-center mt-5">
+<span><i class="fa-brands fa-facebook-f"></i></span>
+<span><i class="fa-brands fa-twitter"></i></span>
+<span><i class="fa-brands fa-google-plus-g"></i></span>
+<span><i class="fa-brands fa-pinterest"></i></span>
+</div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+    <script src="bootstrap.bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+						
+
+
+		
+						
+					
+			
+
+
+
+
+
+
+
+
+
+
+<!-- 
+
+
+
+	    <div class="col-md-4">
+            <div class="card one pb-5 d-flex flex-column">
+              <div
+                class="card-head d-flex p-2 justify-content-between align-items-center"
+              >
+                <div>Thursday</div>
+                <div>12December</div>
+              </div>
+              <div class="card-body">
+                <span class="mb-2 text-opacity-75 text-white">Lorem </span>
+                <div class="degree">
+                  <div class="num">17.3<sup>o</sup>C</div>
+                  <div class="img-degree">
+                    <img src="./116.png" alt="" />
+                  </div>
+                </div>
+                <div class="mood ms-2">Partly cloudy</div>
+                <div class="items mt-3 text-opacity-75 text-white">
+                  <span class="ms-2">
+                    <img src="./icon-umberella@2x.png" alt="" /> 20%</span
+                  >
+                  <span class="ms-2">
+                    <img src="./icon-wind@2x.png" alt="" /> 18km/h</span
+                  >
+                  <span class="ms-2">
+                    <img src="./icon-compass@2x.png" alt="" /> East</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div
+              class="card two pb-5 text-center d-flex flex-column justify-content-center align-items-center"
+            >
+              <div
+                class="card-head text-center d-flex p-2 justify-content-center align-items-center"
+              >
+                <div class="">Thursday</div>
+              </div>
+              <div class="card-body py-5 mb-5">
+                <div class="img-card">
+                  <img src="/113.png" alt="" />
+                </div>
+                <p class="">23.2<sup>o</sup>C</p>
+                <small class="text-white text-opacity-75"
+                  >14.1<sup>o</sup>
+                </small>
+                <div class="mood">Sunny</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div
+              class="card three pb-5 d-flex flex-column justify-content-center align-items-center"
+            >
+              <div
+                class="card-head text-center d-flex mb-3 p-2 justify-content-center align-items-center"
+              >
+                <div class="">Thursday</div>
+              </div>
+              <div
+                class="card-body py-5 mb-5 d-flex flex-column align-items-center justify-content-between"
+              >
+                <div class="img-card">
+                  <img src="/113.png" alt="" />
+                </div>
+                <p>23.2<sup>o</sup>C</p>
+                <small class="text-white text-opacity-75"
+                  >14.1<sup>o</sup>
+                </small>
+                <div class="mood">Sunny</div>
+              </div>
+            </div>
+          </div> -->
